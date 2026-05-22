@@ -1,4 +1,5 @@
 📈 Real-Time Financial Data Pipeline
+
 Overview
 An end-to-end Data Engineering ELT (Extract, Load, Transform) pipeline built to stream, store, and visualize historical and real-time financial data. This project extracts stock data via the Alpaca API, buffers it through a local Apache Kafka broker, micro-batches it into a Snowflake Data Warehouse, and serves the analytics via an interactive Streamlit dashboard.
 
