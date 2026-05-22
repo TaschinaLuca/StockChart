@@ -69,7 +69,7 @@ try:
                 PURGE = TRUE
             """)
             
-            print("✅ Batch successfully loaded into Snowflake!")
+            print("Batch successfully loaded into Snowflake!")
             
             os.remove(file_name)
             message_batch.clear()
